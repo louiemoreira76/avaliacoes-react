@@ -1,0 +1,144 @@
+.mae{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #252525;
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 250px;
+
+    .krl{
+        display: flex;
+       
+        background: #373737;
+        border-radius: 22px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        width: 11rem;
+        padding: 5px;
+        font-size: 12px; 
+        margin: 10px;
+    }
+
+    .mae-dolado{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        
+        position: fixed;
+        width: 250px;
+        top: 0;
+        left: 0px;
+        height: 100%;
+        transition: left 0.3s ease-in-out;
+        padding: 0px 30px;
+
+        .mae-dolado-logo{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 11rem;
+            color: white;
+            padding: 24px 0px 60px 20px;
+        }
+
+        .mae-dolado-incos{
+            display: flex;
+            flex-direction: column;
+            height: 11rem;
+           padding: 0px 25px 0px 19px;
+            justify-content: space-around;
+            
+
+            .symbols{
+                display: flex;
+                flex-direction: row;
+                color: white;
+                width: 9rem;
+                align-items: center;
+                padding: 10px;
+                
+            }
+            .symbols > h6{
+                padding: 0px 15px;
+            }
+        }
+    }
+
+    .Formulario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .seguidores{
+            padding-bottom: 40px;
+        }
+
+        .Box{
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(to bottom, rgba(53, 53, 53, 1), rgba(60, 60, 60, 0));
+        width: 35rem;
+        border-radius: 1px;
+        gap: 10px;
+
+        .Usuario-Tempo{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            padding-top: 40px;
+            color: white;
+            .coco{
+                display: flex;
+                flex-direction: row;
+            }
+        }
+
+        .Avatar{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 74%;
+            padding: 10px;
+            color: white;
+        }
+
+        .descricao{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 95%;
+            color: white;
+        }
+        
+        .Post-curti{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        .postar{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 15px 0px 20px;
+        }
+        .postar > button{
+            background: rgba(198, 8, 68, 1);
+            width: 70%;
+            border: none;
+            padding: 10px;
+            color: white;
+        }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.itens-adicionados {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 40px;
+    padding: 10px 10px;
+    border: solid 1px rgb(202, 202, 202);
+}
+
+.itens-adicionados h1 {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(109, 109, 109);
+    font-weight: 400;
+}
